@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    background: #e3e6e6;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    /* overflow: hidden; */
+    /* position: sticky; */
+}
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  } */
+.border{
+    border: 1.2px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white;
+    border-radius: 4px;
+}
+
+/* .item{
+    margin-left:1%;
+    margin-right: 1%;
+} */
+/* Box 1 */
+.nav-logo{
+    height: 40px;
+    width: 133px;
+}
+.amazonlogo{
+    background-image: url(Images/amazon_PNG11.png);
+    height: 40px;
+    width: auto;
+    background-size: cover;
+}
+
+/* Box 2 */
+.part1{
+    font-size: 0.8rem;
+    color: #CCCCCC;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+.part2{
+    display: flex;
+}
+.India{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.content{
+    padding: 5px;
+}
+
+/* Box 3 */
+.form{
+    display: flex;
+    background: #febd69;
+    width: 900px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.form-select{
+    background: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 16px;
+}
+.form-input{
+    background: white;
+    width:800px;
+    border: none;
+    font-size: 17px;
+}
+.form-icon{
+    width: 45px;
+    text-align: center;
+    font-size: 20px;
+    color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* box 4 */
+.item3{
+    padding: 3px;
+}
+.item3_p1{
+    font-size: 0.8rem;
+}
+.item3_p2{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+.item4{
+    padding: 3px;
+}
+.item4_p1{
+    font-size: 0.8rem;
+}
+.item4_p2{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+.item5{
+    display: flex;
+}
+.cartlogo{
+    font-size: 32px;
+    color: white;
+}
+.cart{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+
+/* 2nd navbar */
+.navbar_2{
+    height: 39px;
+    background: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav2-cont{
+    display: flex;
+    align-items: center;
+}
+.nav2-cont p{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.manuicon{
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+}
+.llt{
+    font-weight: 700;
+    position: relative;
+    left: 887px;
+    font-size: 0.95rem;
+}
+
+/* Body */
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.heroimg{
+    background-image: url(Images/hero_img2.jpg);
+    height: 400px;
+    width: 1500px;
+    background-size: cover;
+}
+/* main{
+    display: flex;
+    justify-content: center;
+} */
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3e6e6;
+    height: 36px;
+    width: 85%;
+    position: relative;
+    top: -69px;
+    font-size: 0.88rem;
+}
+.para2{
+    color: #157c8f;
+    text-decoration: none;
+}
+.message{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -23px;
+    
+}
+.con{
+    height: 420px;
+    width: 350px;
+    background:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.con_items{
+    padding-left: 19px;
+    padding-top: 22px;
+  }
+.con_text{
+    margin-bottom: 10px;
+}
+.con_img{
+    background-image: url(Images/img1.jpg);
+    width: 310px;
+    height: 303px;
+}
+.con_excess{
+    margin-top: 15px;
+    color: #157c8f;
+    font-size: 0.85rem;
+}
+
+.footerp1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 126px;
+    background: white;
+    font-size: 0.8rem;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    background: #ffc83f;
+    width: 132px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    margin-top: 5px;
+    margin-bottom:5px ;
+}
+.signin a{
+    text-decoration: none;
+    color: black;
+}
+.bottomtext{
+    display: flex;
+}
+.bottomtext a{
+    color:#157c8f;
+    text-decoration: none;
+}
+.footerp2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49px;
+    background: #37475a;
+    color: white;
+    font-size: 0.9rem;
+}
+.footerp3{
+    height: 400px;
+    background: #232f3e;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.p3box{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(234, 229, 229);
+    font-size: 0.85rem;
+    /* background: white; */
+}
+.p3box p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pp{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.footerp3_content{
+    display: flex;
+}
+.line{
+    height: 0.6px;
+    color: #2b3745;
+}
+.footerp4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    background: #232f3e;
+}
+.p4box1{
+    height: 25px;
+    width: 80px;
+    margin-left: 50px;
+    margin-right: 90px;
+}
+.p4img{
+    height: 25px;
+    width: 80px;
+    background-image: url("Images/amazon_PNG11.png");
+    background-size: cover;
+}
+.p4box{
+    color: #b9c0c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.8rem; 
+    border: 1px solid #b9c0c8;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+}
+.p4box3{
+    color: #b9c0c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.8rem; 
+    border: 1px solid #b9c0c8;
+    border-radius: 4px;
+    height: 30px;
+    width: 150px;
+}
+.p4boxx{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.footerp5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80px;
+    background:  #131a22;
+    color: #b9c0c8;
+    font-size: 0.75rem;
+}
+
